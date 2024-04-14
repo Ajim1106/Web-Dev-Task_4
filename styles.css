@@ -1,0 +1,138 @@
+/* Custom CSS for OTT Platform Homepage */
+
+/* Styling for Navigation */
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+/* Styling for Hero Section */
+#hero {
+    background-image: url('hero.jpg'); /* Add your background image */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Text color */
+    padding: 100px 0;
+}
+
+/* Styling for Hero Content */
+.hero-content {
+    max-width: 600px; /* Limit width of content */
+    margin: 0 auto; /* Center content horizontally */
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.25rem;
+    margin-bottom: 40px;
+}
+
+.hero-content .btn {
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-weight: bold;
+}
+
+
+/* Styling for Trending Movies, Trending Series, and Recommended Content Sections */
+.container h2 {
+    color: #333;
+}
+
+/* Styling for Cards */
+.card {
+    width: calc(25% - 15px); /* Each card occupies 25% of the container width with margin */
+    margin-right: 15px; /* Adjust margin between cards as needed */
+    border: none;
+}
+
+.card img {
+    border-radius: 5px;
+}
+
+/* Styling for Scrolling Container */
+.scrolling-container {
+    overflow-x: auto; /* Enable horizontal scrolling */
+    overflow-y: hidden; /* Hide vertical overflow */
+    white-space: nowrap; /* Ensure cards stay in a single row */
+    margin-bottom: 20px;
+}
+
+.carousel-item{
+    height: 300PX;
+}
+
+/* Styling for Carousel Indicators */
+.carousel-indicators li {
+    background-color: rgba(0, 123, 255, 0.5);
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    margin: 0 5px;
+}
+
+.carousel-indicators .active {
+    background-color: #007bff;
+}
+
+/* Styling for Previous and Next Buttons */
+.prev-btn, .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+
+.prev-btn:hover, .next-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #343a40; /* Dark background color */
+}
+
+.footer h5 {
+    color: #fff; /* White text color for headings */
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: #ddd; /* Light text color for links */
+}
+
+.footer ul li a:hover {
+    color: #fff; /* White text color on hover */
+}
+
+.footer hr {
+    border-top-color: #fff; /* White border color */
+}
